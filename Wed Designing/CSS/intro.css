@@ -1,0 +1,145 @@
+/*
+CSS Introduction
+CSS (Cascading Style Sheets) is a 
+language designed to simplify the process of making web pages presentable.
+to apply styles to HTML documents by prescribing colors, fonts, spacing, and positioning.*/
+
+/* Why CSS?
+Saves Time: Write CSS once and reuse it across multiple HTML pages.
+Easy Maintenance: Change the style globally with a single modification.
+Search Engine Friendly: Clean coding technique that improves readability for search engines.
+Superior Styles: Offers a wider array of attributes compared to HTML.
+Offline Browsing: CSS can store web applications locally using an offline cache, allowing offline viewing
+*/
+
+/* CSS Syntax
+Selector: Targets specific HTML elements to apply styles.
+Declaration: Combination of a property and its corresponding value.
+
+h1 {
+    color: blue; font-size: 12px;
+}
+
+Example:
+p {
+    color: blue;
+    text-align: center;
+}
+
+body {
+  background-color: lightblue;
+}
+*/
+
+/* CSS Selectors
+CSS selectors are used to "find" (or select) the HTML elements you want to style.
+Simple selectors (select elements based on name, id, class)
+Combinator selectors (select elements based on a specific relationship between them)
+Pseudo-class selectors (select elements based on a certain state)
+Pseudo-elements selectors (select and style a part of an element)
+Attribute selectors (select elements based on an attribute or attribute value)
+*/
+
+/* Basic Selectors */
+/* element Selector */
+h1 {
+    color: blue;
+}
+
+/* id Selector */
+#unique {
+    color: green;
+}
+
+/* class Selector */
+.highlight {
+    background-color: yellow;
+}
+
+/* Universal Selector 
+selects all HTML elements on the page.*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Grouping Selector
+selects all the HTML elements with the same style definitions. */
+
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
+/* Combinator Selectors */
+/* Combinator Selectors
+relationships between selectors,  */
+
+div p {
+    color: red;
+}
+
+/* Child Selector
+only affects the direct child elements of a parent */
+
+div>p {
+    margin-left: 20px;
+}
+
+/* Adjacent Sibling Selector
+Styles an element immediately following another . */
+
+h1+p {
+    font-weight: bold;
+}
+
+/*  General Sibling Selector 
+Styles all siblings that follow a specific element. */
+
+h1~p {
+    font-style: italic;
+}
+
+/* Attribute Selectors */
+/* Presence Selector
+It selects elements that contain a specific attribute.*/
+
+input[type] {
+    border: 2px solid black;
+}
+
+/* Attribute Value Selector
+ It targets elements with a particular attribute value.*/
+
+input[type="text"] {
+    background-color: yellow;
+}
+
+/* Substring Matching
+It matches elements where the attribute contains a substring. */
+
+a[href^="https"] {
+        color: green;
+
+}
+
+/* Wildcard Selector
+Matches elements where the attribute value contains a specific string. */
+
+a[href*="example"] {
+    text-decoration: underline;
+}

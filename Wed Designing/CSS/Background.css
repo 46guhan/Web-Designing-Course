@@ -1,0 +1,74 @@
+/* CSS Background */
+/*  used to add background effects for elements. */
+/* 
+properties:
+background-color
+background-image
+background-repeat
+background-attachment
+background-position */
+
+/* background-color */
+body {
+  background-color: lightblue;
+}
+h1 {
+  background-color: yellow;
+}
+
+/* Opacity ( transparent)*/
+div {
+  background-color: green;
+  opacity: 0.3;
+}
+
+/* Transparency using RGBA */
+div {
+  background-color: rgba(0, 0, 255, 0.5); /* blue with 50% opacity */
+}
+
+/* Background Image */
+body {
+  background-image: url("marvels-spider-man.jpg");
+}
+
+/* Background Repeat */
+body {
+  background-image: url("marvels-spider-man.jpg");
+    background-repeat: repeat-x; 
+}
+
+body {
+  background-image: url("marvels-spider-man.jpg");
+  background-repeat: no-repeat;
+}
+
+/* background position */
+body {
+  background-image: url("marvels-spider-man.jpg");
+  background-position: center;
+}
+
+body {
+  background-image: url("marvels-spider-man.jpg");
+  background-position: top right;       
+}
+
+/* Background Attachment */
+body {
+  background-image: url("marvels-spider-man.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+  background-image: url("marvels-spider-man.jpg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-attachment: scroll;
+}
+
+/* background Shorthand */
+body {
+  background: #ffffff url("img_tree.png") no-repeat right top;
+}

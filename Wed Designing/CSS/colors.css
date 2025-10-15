@@ -1,0 +1,15 @@
+body {
+  color:Tomato
+}
+
+h1 {
+  color: rgb(235, 31, 235); 
+}
+
+p {
+  color: #b83b1f;; 
+}
+
+div {
+  color: hsl(120, 100%, 50%);
+}

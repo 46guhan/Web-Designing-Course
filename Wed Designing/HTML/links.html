@@ -1,0 +1,99 @@
+<!--
+HTML Links Hyperlinks
+defined by the <a> "anchor"tag
+The basic attributes of the <a> tag include href, title, and target
+
+    Syntax:
+<a href="https://www.example.com///">Visit Example</a>
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML Links</title>
+</head>
+
+<body>
+    <p>Click on the following link</p>
+    <a href="https://www.wikipedia.org/">Wikipedia</a>
+<!--
+absolute URL:
+a full web address in the href attribute.-->
+    <h2>Absolute URLs</h2>
+    <p><a href="https://www.google.com/">Google</a></p>
+
+<!--
+relative URL:
+a link to a page within the same website.
+-->
+    <h2>Relative URLs</h2>
+    <p><a href="https://www.google.com/maps/">Google Maps</p>
+
+</body>
+
+</html>
+
+<!--
+The target Attribute:
+_blank	Opens the linked document in a new window or tab.
+_self	Opens the linked document in the same frame or window as the link. (Default behavior)
+_parent	Opens the linked document in the parent frame.
+_top	Opens the linked document in the full body of the window.
+-->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Target Attribute Example</title>
+</head>
+
+<body>
+    <h3>
+        Various options available in the
+        Target Attribute
+    </h3>
+
+    <p>
+        If you set the target attribute to
+        "_blank", the link will open in a new
+        browser window or tab.
+    </p>
+    <a href="https://github.com/" 
+       target="_blank">
+        Github
+    </a>
+
+    <p>
+        If you set the target attribute to
+        "_self", the link will open in the
+        same window or tab.
+    </p>
+    <a href="https://github.com/" 
+       target="_self">
+        Github
+    </a>
+
+    <p>
+        If you set the target attribute to
+        "_top", the link will open in the full
+        body of the window.
+    </p>
+    <a href="https://github.com/" 
+       target="_top">
+        Github
+    </a>
+
+    <p>
+        If you set the target attribute to
+        "_parent", the link will open in the
+        parent frame.
+    </p>
+    <a href="https://github.com/" 
+       target="_parent">
+        Github
+    </a>
+</body>
+
+</html>

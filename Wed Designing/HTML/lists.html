@@ -1,0 +1,199 @@
+<!--HTML Lists-->
+<!--
+List Tags:
+<ul>	Defines an unordered list.
+<ol>	Defines an ordered list.
+<li>	Defines a list item.
+<dl>	Defines a description list.
+<dt>	Defines a term in a description list.
+<dd>	Details the term in a description list.
+-->
+
+
+<!DOCTYPE html>
+<html>
+    <Body>
+        <div>
+        <!--Unordered List or Bulleted List
+            Syntax:
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>-->
+        <ul>
+            <h4>Unordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ul>
+        </div>
+        <div>
+        <!--List Item Marker
+            disc	Sets the list item marker to a bullet (default)
+            circle	Sets the list item marker to a circle
+            square	Sets the list item marker to a square
+            none	The list items will not be marked-->
+            <ul style="list-style-type:circle;">
+            <h4>Circle Unordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ul>
+        <ul style="list-style-type:square;">
+            <h4>Square Circle Unordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ul>
+        </div>
+        <div>
+        <!--Ordered List
+            Syntax:
+            <ol>
+                <li>Item1</li>
+                <li>Item2</li>
+                <li>Item3</li>
+            </ol>-->            
+            <ol>
+            <h4>Ordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ol>
+        </div>
+        <div>
+        <!--
+        Attributes:
+
+        compact: It defines the list should be compacted (compact attribute is not supported in HTML5. Use CSS instead.).
+        reversed: It defines that the order will be descending.
+        start: It defines from which number or alphabet the order will start.
+        type: It defines which type(1, A, a, I, and i) of the order you want in your list of numeric, alphabetic or roman numbers.
+        -->
+        <ol reversed>
+            <h4>Reversed Ordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ol>
+        </ol>
+        <ol start="3">
+            <h4>Ordered List Start From 3</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ol>
+        <ol type="a">
+            <h4>Alphabetic Ordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ol>
+        <ol type="I">
+            <h4>Roman Ordered List</h4>
+            <li>Apple</li>
+            <li>Pineapple</li>
+            <li>Orenge</li>
+            <li>Graps</li>
+            <li>Papaya</li>
+        </ol>
+        </div>
+        <div>
+        <!--Description List-->
+        <!--list of terms, with a description of each term
+        The <dl> tag defines the description list, the <dt> tag defines the term name, and the 
+        <dd> tag describes each term.
+    
+        Syntax: 
+        <dl>
+            <dt>Item 1</dt>
+            <dd>Description of Item 1 </dd>
+            <dt>Item 2</dt>
+            <dd>Description of Item 2</dd>
+        </dl>-->
+            <h4>A Description List</h4>
+            <dl> 
+            <dt>Coffee</dt>
+            <dd>- 500 gms</dd>
+            <dt>Milk</dt>
+            <dd>- 1 ltr Tetra Pack</dd>
+            </dl>
+        </div>
+        <div>
+            <h2>Nested List</h2>
+            <Ol>
+                <h4>Orderd Nested List</h4>
+                <li>DSA
+                <ol>
+                    <li>Array</li>
+                    <li>Linked List</li>
+                    <li>Stack</li>
+                    <li>Queue</li>
+                </ol>
+                </li>
+                <li>Web Descending
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ol>
+                </li>
+            </Ol>
+        </div>
+        <div>
+            <ul>
+                <h4>Unorderd Nested List</h4>
+                <li>DSA
+                <ul>
+                    <li>Array</li>
+                    <li>Linked List</li>
+                    <li>Stack</li>
+                    <li>Queue</li>
+                </ul>
+                </li>
+                <li>Web Descending
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ul>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <h4>Mixed Nested List</h4>
+                <li>DSA
+                <ol>
+                    <li>Array</li>
+                    <li>Linked List</li>
+                    <li>Stack</li>
+                    <li>Queue</li>
+                </ol>
+                </li>
+                <li>Web Descending
+                <ol>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Java Script</li>
+                </ol>
+                </li>
+            </ul>
+        </div>
+    </Body>
+</html>

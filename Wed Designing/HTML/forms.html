@@ -1,0 +1,150 @@
+<!--HTML Forms-->
+<!--
+For collecting user input on web pages.
+Controls such as text fields, numeric inputs, email fields, password fields, checkboxes, 
+radio buttons and submit buttons.
+
+Syntax:
+
+<form>
+      form elements
+</form>
+-->
+
+<!--
+HTML Input Types
+<input type="text">
+<input type="password">
+<input type="checkbox">
+<input type="radio">
+<input type="number">
+<input type="email">
+<input type="select">
+<input type="date">
+<input type="datetime-local">
+<input type="hidden">
+<input type="image">
+<input type="month">
+<input type="time">
+<input type="url">
+<input type="week">
+-->
+
+<!DOCTYPE html>
+<html>
+    <Head><p><h2>Forms</h2></p></Head>
+    <body>
+        <Form>
+<!--<label> Element:
+Defines a label for several form elements.
+The for attribute of the <label> tag should be equal to the id attribute of the <input> element to bind them together.
+<input> Element:
+The <input> element can be displayed in several ways, depending on the type attribute.-->
+            <h4>Text</h4>
+            <label for="fname">First name:</label><br>
+            <input type="text" id="fname" name="fname"><br>
+            <label for="lname">Last name:</label><br>
+            <input type="text" id="lname" name="lname">
+
+            <h4>Password</h4>
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username"><br>
+            <label for="pwd">Password:</label><br>
+            <input type="password" id="pwd" name="pwd">
+
+            <h4>Radio</h4>
+            <input type="radio" id="html" name="fav_language" value="HTML">
+            <label for="html">HTML</label><br>
+            <input type="radio" id="css" name="fav_language" value="CSS">
+            <label for="css">CSS</label><br>
+            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+            <label for="javascript">JavaScript</label>
+
+            <h4>Checkbox</h4>
+            <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+            <label for="vehicle1"> I have a bike</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> I have a car</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> I have a boat</label>
+
+            <h4>Date</h4>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+
+            <h4>Email</h4>
+            <label for="Email">Enter your email</label>
+            <input type="email" id="Email" name="Email">
+
+            <h4>Hidden</h4>
+            <!--not visible to a user-->
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custId" name="custId" value="3487">
+            <input type="submit" value="Submit">
+
+            <h4>Month</h4>
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth">
+
+            <h4>Number</h4>
+            <label for="Number">Enter your number</label>
+            <input type="number" id="number", name="number">
+
+        <div>
+            <h2>Elements</h2>
+<!--<select> Element:
+    The <select> element defines a drop-down list.
+    <option> element:
+    defines an option that can be selected.-->
+            <h4>select</h4>
+            <label for="cars">Choose a car:</label>
+            <select id="cars" name="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+            </select>
+
+<!--<textarea> Element:
+    multi-line input field (a text area).-->
+            <h4>textarea</h4>
+            <label for="address">Enter your Address:</label>
+            <textarea id="address" name="address" required></textarea>
+
+<!--<datalist> Element:
+    pre-defined options for an <input> element.
+    Users will see a drop-down list of the pre-defined options as they input data.-->
+            <h4>datalist</h4>
+            <input list="browsers">
+            <datalist id="browsers">
+                <option value="Edge">
+                <option value="Firefox">
+                <option value="Chrome">
+                <option value="Opera">
+                <option value="Safari"> 
+            </datalist>
+
+<!--<fieldset> and <legend> Elements:
+    <fieldset> element is used to group related data in a form.
+    <legend> element defines a caption for the <fieldset> element.-->
+            <h4>fieldset & legend</h4>
+            <fieldset>
+                <legend>Personalia:</legend>
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="John"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="Doe"><br><br>
+                <input type="submit" value="Submit">
+            </fieldset>
+
+<!--<button> Element:
+    defines a clickable button.-->
+            <h4>button</h4>
+            <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Reset">
+        </div>
+        </Form>
+    </body>
+</html>
