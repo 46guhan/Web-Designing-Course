@@ -1,0 +1,37 @@
+/* 
+----height----
+
+height: 150px;
+height: 6em;
+height: 75%;
+height: auto;
+
+----Keyword values----
+height: max-content;
+height: min-content;
+height: fit-content;
+height: fit-content(20em);
+height: auto;
+height: stretch;
+*/
+
+
+/* 
+----width----
+
+width: 150px;
+width: 20em;
+width: 75%;
+width: auto;
+
+----Keyword values----
+width: max-content;
+width: min-content;
+width: fit-content;
+width: fit-content(20em);
+width: auto;
+width: stretch;
+
+----max-width----
+maximum allowed width of an element.
+*/

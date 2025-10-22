@@ -1,0 +1,199 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    box-shadow: 10px 5px 5px red;
+}
+
+/* Navigation */
+nav ul {
+    display: flex;
+    justify-content: center;
+    /* list-style: none; */
+    background-color: #34495e;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #1abc9c;
+}
+
+nav ul li a:active {
+    color: rgb(243, 17, 205);
+}
+
+nav ul li a:visited {
+    color: red;
+}
+
+/* Main content */
+div {
+    /* margin-bottom: 30px; */
+    padding: 0, 10px;
+}
+
+/* Section headings */
+h3 {
+    color: #2c3e50;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #1abc9c;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 10px;
+}
+
+/* Education Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+thead {
+    background-color: #1abc9c;
+    color: white;
+}
+
+/* Articles */
+article {
+    margin-bottom: 20px;
+}
+
+/* Aside section */
+aside ul {
+    list-style: square;
+    margin-left: 20px;
+}
+
+/* Skills and Soft Skills */
+ul, ol {
+    margin-left: 20px;
+}
+
+/* Definition list */
+dl dt {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+dl dd {
+    margin-left: 20px;
+}
+
+::marker {
+    color: blue;
+}
+
+/* Form styling */
+form {
+    background-color: #ecf0f1;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+input:focus {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+}
+
+textarea:focus {
+    background-color: darkolivegreen;
+    color: whitesmoke;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+    width: auto;
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+form input[type="submit"]:hover, form input[type="reset"]:hover {
+    background-color: #16a085;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #34495e;
+    color: white;
+    margin-top: 30px;
+}
+
+footer img {
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+@keyframes slideLeftRight {
+    0% {transform: translateX(-400px);}
+    100% {transform: translateX(400px);}
+}
+
+footer img {
+    animation: slideLeftRight 3s infinite ease-in-out;
+    animation-direction: alternate;
+    display: block;
+    margin: 0 auto;
+}

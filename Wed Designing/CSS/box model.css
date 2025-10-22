@@ -1,0 +1,170 @@
+/* margin */
+/* 
+syntax
+margin: 1em;
+margin: 5% 0; top, bottum
+margin: 10px 50px 20px; top 10, left&right 50, bottum 20
+margin: 10px 50px 20px 0;
+margin: 0; all*/
+
+/* 
+properties
+margin-top
+margin-right
+margin-bottom
+margin-left */
+
+/* margin-block */
+/* 
+margin-block: 10px 20px;
+writing-mode: horizontal-tb;
+margin-block: 20px 40px;
+writing-mode: vertical-rl;
+margin-block: 5% 20%;
+writing-mode: horizontal-tb;
+margin-block: 1rem auto;
+writing-mode: vertical-lr; */
+/* 
+margin-block-start
+margin-block-end */
+
+/* margin-inline */
+/* 
+margin-inline: 5% 10%;
+writing-mode: horizontal-tb;
+margin-inline: 10px 40px;
+writing-mode: vertical-rl;
+margin-inline: 5% 10%;
+writing-mode: horizontal-tb;
+direction: rtl; */
+/* 
+margin-inline-start
+margin-inline-end*/
+/* ------------------------------------------------------------------------ */
+
+/* padding */
+/* 
+padding: 1em;
+padding: 10% 0;
+padding: 10px 50px 20px;
+padding: 10px 50px 30px 0;
+padding: 0; */
+/* 
+padding-top
+padding-right
+padding-bottom
+padding-left */
+
+/* padding-block */
+/* padding-block: 10px 20px;
+writing-mode: horizontal-tb;
+padding-block: 20px 40px;
+writing-mode: vertical-rl;
+padding-block: 5% 10%;
+writing-mode: horizontal-tb;
+padding-block: 2em 4em;
+writing-mode: vertical-lr; */
+/* 
+padding-block-start
+padding-block-end */
+
+/* padding-inline */
+/* 
+padding-inline: 5% 10%;
+writing-mode: horizontal-tb;
+padding-inline: 15px 40px;
+writing-mode: vertical-rl;
+padding-inline: 5% 20%;
+writing-mode: horizontal-tb;
+direction: rtl; */
+/* 
+padding-inline-end
+padding-inline-start */
+/* -------------------------------------------------------------------- */
+
+
+/* border */
+/* 
+border: solid;
+border: dashed red;
+border: 1rem solid;
+border: thick double #32a1ce;
+border: 4mm ridge rgb(211 220 50 / 0.6); */
+/* border: 5px solid red; shorthand */
+/* 
+border-width
+border-style
+border-color */
+/* 
+border-style: none;
+border-style: hidden;
+border-style: dotted;
+border-style: dashed;
+border-style: solid;
+border-style: double;
+border-style: groove;
+border-style: ridge;
+border-style: inset;
+border-style: outset; */
+
+/* border-block */
+/* 
+border-block: solid;
+writing-mode: horizontal-tb;
+border-block: dashed red;
+writing-mode: vertical-rl;
+border-block: 1rem solid;
+writing-mode: horizontal-tb;
+direction: rtl; */
+/* 
+border-block-color  -- start, end
+border-block-style
+border-block-width */
+
+/* border-bottom */
+/* style
+<line-style> = 
+  none    |
+  hidden  |
+  dotted  |
+  dashed  |
+  solid   |
+  double  |
+  groove  |
+  ridge   |
+  inset   |
+  outset  */
+
+/* Radius (curve)*/
+/* border-radius: 5px;
+border-radius: 25% 10%;
+border-radius: 10% 30% 50% 70%;
+border-radius: 10% / 50%;
+border-radius: 10px 100px / 120px;
+border-radius: 50% 20% / 10% 40%; */
+/* 
+border-bottom-left-radius: 80px 80px;
+border-bottom-right-radius: 80px 80px; */
+
+/* border-collapse */
+/* 
+border-collapse: collapse;
+border-collapse: separate; */
+
+/* border-end-start-radius (same as) border-end-end-radius */
+/* 
+border-end-start-radius: 80px 80px;
+border-end-start-radius: 250px 100px;
+direction: rtl;
+border-end-start-radius: 50%;
+writing-mode: vertical-lr;
+border-end-start-radius: 50%;
+writing-mode: vertical-rl; */
+
+/* Content  */
+/* The content of the box, where text and images appear */
+/* 
+content-visibility: visible; 
+content-visibility: hidden;
+content-visibility: auto; 
+*/

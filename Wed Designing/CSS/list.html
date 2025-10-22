@@ -1,0 +1,94 @@
+<!-- list -->
+
+<!doctype html>
+<html>
+<head>
+<style>
+/* list style */
+.list_style {
+    list-style: square;
+    /* list-style: inside; */
+    /* list-style: url("next.png"); */
+    /* list-style: georgian inside url("next.png"); */
+    /* list-style: georgian outside url("next.png"); */
+}   
+/* list-style-type */
+.style_type {
+    list-style-type: disc;
+    /* list-style-type: circle; */
+    /* list-style-type: square; */
+    /* list-style-type: decimal; */
+    /* list-style-type: georgian; */
+    /* list-style-type: trad-chinese-informal; */
+    /* list-style-type: kannada; */
+    /* list-style-type: "\1F44D"; */
+}
+/* list-style-image */
+.style_image{
+    list-style-image: url("next.png");
+    list-style-image: none;
+}
+.style_position{
+    list-style-position: inside;
+    list-style-position: outside;
+}
+</style>
+</head>
+
+<body>
+<!-- list-style -->
+<div>
+    <ul class="list_style">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ul>
+    <ol class="list_style">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ol>
+</div>
+
+<!-- list-style-type -->
+<div>
+    <ul class="style_type">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ul>
+    <ol class="style_type">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ol>
+</div>
+
+<!-- list-style-image -->
+<div>
+    <ol class="style_image">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ol>
+    <ul class="style_image">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ul>
+</div>
+<!-- list-style-position -->
+<div>
+    <ol class="style_position">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ol>
+    <ul class="style_position">
+        <li>cat</li>
+        <li>dog</li>
+        <li>parrot</li>
+    </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                background-color: lightgrey;
+                width: 300px;
+                border: 15px solid green;
+                padding: 50px;
+                margin: 20px;
+            }
+
+            p {
+                border: dotted 2px;
+            }
+
+            .hidden > p {
+                content-visibility: hidden;
+            }
+
+            .visible > p {
+                content-visibility: visible;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>example</h2>
+        <div>
+            <p>
+                hiii
+            </p>
+        </div>
+        <div class="visible">
+            <button class="toggle">Show</button>
+            <p>This content is initially visible and can be shown by clicking the button.</p>
+        </div>
+        <div class="hidden">
+            <button class="toggle">Show</button>
+            <p>This content is initially hidden and can be shown by clicking the button.</p>
+        </div>
+    </body>
+</html>

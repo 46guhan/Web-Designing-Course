@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: hotpink;
+}
+
+a:active {
+  color: blue;
+}
+
+input:focus {
+    background-color:brown;
+}
+
+div:first-child p{
+    color:aqua;
+}
+
+div:last-child p{
+    color: blueviolet;
+}
+/* p::first-line {
+    color: red;
+    font-size: 25px;
+    font-variant: small-caps;
+} */
+
+/* p::first-letter {
+    color: green;
+    font-size: 30px;
+} */
+
+/* a::before {
+    content: url(imdb.png);
+} */
+
+a::after {
+    content: url(imdb.png);
+}
+
+::marker {
+    color: chartreuse;
+}
+
+::selection {
+  color: red;
+  background: yellow;
+}
+</style>
+</head>
+<body>
+
+<h3><a href="https://www.imdb.com/">This is a link</a></h3>
+
+<label for="name">Name</label>
+<input type="text", id="name", name="Name">
+
+<div>
+<p>Hi, how are you</p>
+<p>Hi, how are you</p>
+</div>
+
+<p><b>Did you know that honeybees communicate with each other through a "waggle dance" to share 
+    information about the location of food sources? The intricate dance, performed inside the hive, 
+    conveys both the direction and distance of a food source relative to the sun. The angle of 
+    the "waggle" part of the dance indicates the direction, while the duration of the waggle conveys the distance, 
+    allowing other bees to find the flowers and gather nectar.</b></p>
+
+<ol>
+    <li>one</li>
+    <li>two</li>
+    <li>thee</li>
+</ol>
+<ul>
+    <li>one</li>
+    <li>two</li>
+    <li>thee</li>
+</ul>
+
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!-- CSS Variables -->
+<html>
+<head>
+<!--Driver Code Ends-->
+    <style>
+        :root {
+            --main-bg-color: lightblue;
+            --main-text-color: darkblue;
+        }
+        body {
+            background-color: var(--main-bg-color);
+            color: var(--main-text-color);
+        }
+
+        :root {
+            --spacing: 20px;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            margin: var(--spacing);
+        }
+    </style>
+<!--Driver Code Starts-->
+</head>
+<body>
+    <h1>Welcome to My Website</h1>
+    <p>This is a sample paragraph demonstrating CSS variables.</p>
+    <div class="box"></div>
+    <div class="box"></div>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+    @property --my-bg-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: lightgray;
+    }
+
+    @property --my-txt-color {
+      syntax: "<color>";
+      inherits: true;
+      initial-value: darkblue;
+    }
+
+    div {
+      width: 300px;
+      height: 150px;
+      padding: 15px;
+      background-color: var(--my-bg-color);
+      color: var(--my-txt-color);  
+    }
+</style>
+</head>
+<body>
+
+<h1>The @property Rule</h1>
+
+<div>
+<h2>Lorem ipsum</h2>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit.</p>
+</div>
+
+</body>
+</html>

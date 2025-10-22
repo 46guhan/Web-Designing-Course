@@ -1,0 +1,44 @@
+<style>
+    b.inline{
+        display: inline;
+        background-color: lightgreen;
+        padding: 5px;
+        margin: 20px;
+        border: 2px solid red;
+        width: 200px; /* no affects */
+        height: 50px; /* no affects */
+    }
+    em.block{
+        display: block;
+        width: 100px;
+        height: 35px;
+        padding: 5px;
+        border: 2px solid red;
+    }
+    strong.inline_block{
+        display: inline-block;
+        width: 100px;
+        height: 35px;
+        padding: 5px;
+        border: 2px solid red;
+    }
+    q {
+        display: none;
+    }
+</style>
+
+<div>
+    <p>this is a <b class="inline">inline</b> example.</p>
+</div>
+<hr>
+<div>
+    <p>This is <em class="block">block</em> example.</p>
+</div>
+<hr>
+<div>
+    <p>This is <strong class="inline_block">inline</strong>-<strong class="inline_block">block</strong> example</p>
+</div>
+<hr>
+<div>
+    <p>Im going to hide this <q>You can't see me -Johnny Seana</q> sentence.</p>
+</div>
